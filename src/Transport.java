@@ -22,4 +22,5 @@ public abstract class Transport {
     public void setWheelsCount(int wheelsCount) {
         this.wheelsCount = wheelsCount;
     }
+
 }
