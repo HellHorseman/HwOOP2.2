@@ -27,4 +27,5 @@ public class Bicycle {
     public void updateTyre() {
         System.out.println("Меняем покрышку");
     }
+
 }
