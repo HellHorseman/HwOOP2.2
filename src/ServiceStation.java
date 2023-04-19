@@ -1,4 +1,4 @@
-public class ServiceStation implements Service {
+public class ServiceStation {
     public void check(Car car, Bicycle bicycle, Truck truck) {
         if (car != null) {
             System.out.println("Обслуживаем " + car.getModelName());
