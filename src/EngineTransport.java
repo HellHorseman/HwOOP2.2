@@ -1,8 +1,12 @@
-public class Car extends EngineTransport implements ServiceTransport {
-
-    public Car(String modelName, int wheelsCount) {
+public abstract class EngineTransport extends WheelTransport {
+    public EngineTransport(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
+
+    void checkEngine() {
+        System.out.println("Проверяем двигатель");
+    }
+
     @Override
     public void service() {
         System.out.println("Обслуживаем " + getModelName());
